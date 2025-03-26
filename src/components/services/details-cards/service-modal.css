@@ -1,0 +1,19 @@
+.service-modal .ant-modal-content {
+    background-color: var(--container-color);
+    color: var(--title-color);
+}
+
+.service-modal .ant-modal-title {
+    background-color: var(--container-color);
+    color: var(--title-color);
+}
+
+.ant-modal-close-x {
+    color: var(--title-color);
+}
+
+.details-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

@@ -1,0 +1,92 @@
+export const hardSkills = [
+	{
+		id: 0,
+		name: 'JavaScript',
+		percentage: 90,
+		description: 'Работала над мобильным приложением на React Native, веб-приложениями на ReactJS и Angular, писала чистые JS скрипты',
+	},
+	{
+		id: 1,
+		name: 'TypeScript',
+		percentage: 90,
+		description: 'В 2020 году получила первую задачу по миграции JS кода на TS, далее разрабатывала новые фичи полностью на TypeScript',
+	},
+	{
+		id: 2,
+		name: 'ReactJS',
+		percentage: 90,
+		description: 'В коммерческой разработке работала с ReactJS с 2021 года, делала как классовые, так и функциональные компоненты',
+	},
+	{
+		id: 3,
+		name: 'Redux',
+		percentage: 90,
+		description: 'Был опыт разработки store как в чистом виде, так и с помощью таких вспомогательных библиотек. как redux-symbiote, RTK Query',
+	},
+	{
+		id: 4,
+		name: 'RTK Query',
+		percentage: 90,
+		description: 'С RTK Query работаю уже 3 года, много занималась консультированием команды по работе с данной библиотекой',
+	},
+	{
+		id: 5,
+		name: 'CSS',
+		percentage: 90,
+		description: 'Создавала стили как на чистом CSS, так и на SCSS, а также через styled components. Создавала графа с нуля с помощью svg',
+	},
+	{
+		id: 6,
+		name: 'ExpressJS',
+		percentage: 60,
+		description: 'Участвовала в работке mock-сервера на ExpressJS, который позволял полностью имитировать работу реального стенда',
+	},
+	{
+		id: 7,
+		name: 'NodeJS',
+		percentage: 80,
+		description: 'Консультрование команды в случае технических проблем, запуск скриптов в рамках лабораторных работ в университете',
+	},
+	{
+		id: 8,
+		name: 'Angular',
+		percentage: 60,
+		description: 'Был небольшой по разработке нового функционала в веб-приложении и написанию unit-тестов для него',
+	},
+	{
+		id: 9,
+		name: 'React Native',
+		percentage: 65,
+		description: 'Фиксила баги и добавляла новый функционал в мобильном приложении, который работал в связке с desktop и веб приложениями',
+	},
+	{
+		id: 10,
+		name: 'Docker',
+		percentage: 60,
+		description: 'В роли back-end разработчика деплоила приложение через Docker на linux сервер, в рамках курсовой настраивала CI/CD (GitLab)',
+	},
+	{
+		id: 11,
+		name: 'Git',
+		percentage: 99.9,
+		description: 'Работаю по Git-flow модели, хорошо знаю как merge, так и rebase процессы, помогала команде с решением конфликтов',
+	},
+	{
+		id: 12,
+		name: '.NET',
+		percentage: 80,
+		description: 'Разрабатывала MVC приложения как на .NET Framework, .NET Core, так и на .NET 6.0, общий коммерческий опыт - 2 года',
+	},
+	{
+		id: 13,
+		name: 'Python',
+		percentage: 70,
+		description: 'Работала над небольшим сервисом по генерации Word-документов с графиками и диаграммами, общий коммерческий опыт - 1 год',
+	},
+	{
+		id: 14,
+		name: 'SQL',
+		percentage: 80,
+		description: 'Работала с такими СУБД как MS SQL Server, PostgreSQL, оптимизирововала работу скриптов через BULK операции',
+	},
+];
