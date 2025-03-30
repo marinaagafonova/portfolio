@@ -14,7 +14,6 @@ const allNavList = [
 
 export const Portfolio: React.FC = () => {
 	const [portfolioItems, setPortfolioItems] = useState(projects);
-	const [navList, setCategories] = useState(allNavList);
 
 	const filterItems = (category: string) => {
 		if (category === 'all') {
@@ -35,7 +34,7 @@ export const Portfolio: React.FC = () => {
 				My <span>Cases</span>
 			</p>
 
-			<List filterItems={filterItems} list={navList} />
+			<List filterItems={filterItems} list={allNavList} />
 
 			<div className='portfolio__container container grid'>
 				<AnimatePresence initial={false}>
