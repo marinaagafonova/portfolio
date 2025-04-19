@@ -18,7 +18,7 @@ export const projects: TProject[] = [
 	{
 		id: 0,
 		code: 'petProject1',
-		github: 'https://github.com/marinaagafonova/portfolio-app',
+		github: 'https://github.com/marinaagafonova/portfolio',
 		img: petProject1,
 		category: 'Front-end',
 		title: 'Pet project on React and Vite',
