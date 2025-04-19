@@ -85,6 +85,10 @@
 	background-color: var(--border-color);
 }
 
+.skills {
+	cursor: pointer;
+}
+
 .home__img-wrapper {
 	position: absolute;
 	top: 0;

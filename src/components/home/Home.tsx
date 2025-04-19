@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Assets from '../../assets';
 import cv from '../../assets/cv.pdf';
-import { Icons } from '../../libs';
+import { Icons, Link } from '../../libs';
 import './home.css';
 
 const { GitHub, Telegram } = Icons;
@@ -68,10 +68,11 @@ export const Home: React.FC = () => {
 						<a href={cv} className='btn text-cs' rel="noreferrer" download="cv.pdf">
 							Download CV
 						</a>
-
-						<a href='/#hard-skills' className='skills text-cs'>
-							My skills
-						</a>
+						<nav className='nav'>
+							<Link to='hard-skills' className='skills text-cs'>
+								My skills
+							</Link>
+						</nav>
 					</div>
 				</div>
 			</div>
